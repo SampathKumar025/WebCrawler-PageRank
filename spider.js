@@ -78,6 +78,7 @@ spiderJson = {"nodes":[
 {"weight":2,"rank":0.0012683610480242104, "id":107, "url":"https://online.umich.edu/courses/python-data-structures"},
 {"weight":2,"rank":0.0012683610480242104, "id":110, "url":"https://online.umich.edu/courses/capstone-retrieving-processing-and-visualizing-data-with-python"},
 {"weight":2,"rank":1.3153832299749963, "id":116, "url":"https://online.umich.edu/teach-outs/post-covid-teach-out"}],
+
 "links":[
 {"source":0,"target":0,"value":3},
 {"source":0,"target":1,"value":3},
