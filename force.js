@@ -67,4 +67,5 @@ function loadData(json) {
   });
 
 }
+
 loadData(spiderJson);

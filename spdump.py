@@ -9,6 +9,7 @@ cur.execute('''SELECT COUNT(from_id) AS inbound, old_rank, new_rank, id, url
      GROUP BY id ORDER BY inbound DESC''')
 
 count = 0
+
 for row in cur :
     if count < 50 : print(row)
     count = count + 1

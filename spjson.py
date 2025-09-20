@@ -30,6 +30,7 @@ fhand.write('spiderJson = {"nodes":[\n')
 count = 0
 map = dict()
 ranks = dict()
+
 for row in nodes :
     if count > 0 : fhand.write(',\n')
     # print row

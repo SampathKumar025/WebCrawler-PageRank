@@ -1,7 +1,8 @@
 (function(){if (!Date.now) Date.now = function() {
   return +new Date;
 };
-try {
+try
+{
   document.createElement("div").style.setProperty("opacity", 0, "");
 } catch (error) {
   var d3_style_prototype = CSSStyleDeclaration.prototype,
@@ -10,7 +11,8 @@ try {
     d3_style_setProperty.call(this, name, value + "", priority);
   };
 }
-d3 = {version: "2.8.1"}; // semver
+d3 = {version: "2.8.1"}; // server
+
 function d3_class(ctor, properties) {
   try {
     for (var key in properties) {

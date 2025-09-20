@@ -17,8 +17,7 @@ Also you should install BeautifulSoup library using pip which is used to parse t
 This program crawls a web site and pulls a series of pages into the
 database, recording the links between pages.
 
-Note: Windows has difficulty in displaying UTF-8 characters
-in the console so for each console window you open, you may need
+Note: Windows has difficulty in displaying UTF-8 characters in the console so for each console window you open, you may need
 to type the following command before running this code:
 
     chcp 65001
